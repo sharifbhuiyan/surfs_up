@@ -52,9 +52,9 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
  
   
 **Outcomes :**
-From the above scenarios, outcomes are observed: 
+From the above scenarios, the following outcomes are observed: 
 		
-- The average temperature in June and December is about 75 degree F and 71 degree F respectively. i.e. 4 degree difference between months.
+- The average temperature in June and December is about 75 degree F and 71 degree F respectively. i.e. 4 degree difference between June and December.
 - June max temp 85 degree F and December max temp 83 degree F. 
 - June min temp 64 degree F and December max temp 56 degree F. 
 
@@ -62,7 +62,7 @@ From the above scenarios, outcomes are observed:
     
     
 ## Summary:
-<p align="justify"> We can make final decision about our analysis by creating one summary by merging summary details of june and december. We can visualize those by histogram so that we can observe the outcome clearly. </p>  
+<p align="justify"> We can make final decision about our analysis by creating one more summary by merging summary details of june and december. We can visualize those by histogram so that we can observe the outcome clearly. </p>  
 
 
   
@@ -78,14 +78,14 @@ summary_df
  
 ```    
  
-<p align="justify"> The query result of summary_df looks like:</p>
+<p align="justify"> The query result of summary looks like:</p>
   
    
  <p align="center">
 <img width="300" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_summary.png
 </p>
   
-Histogram for the month of June and December : 
+Histogram for the months of June and December : 
   
  <p align="center">
 <img width="600" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_plot.png
