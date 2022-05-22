@@ -1,35 +1,34 @@
-## **<h1 align="center"> surfs_up**
+## **<h1 align="justify"> surfs_up**
 Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
-
-
+	
 ---
 
-
-
-
-  ## Overview of the Analysis: 
+## Overview of the Project: 
 <p align="justify">The project is to give investor a clear concept about the impact of weather in Oahu, Hawaii. Before investing to open the surf shop, specifically, investor wants temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round rather than a seasonal business.<p>
 	
 	
-	
-		SQLite, SQLAlchemy, Flask, Python, Matplotlib, Jupyter notebook
+
 
 <p align="justify">The project consists of two technical analysis.<p>
-
-  - Publish the number of retiring employees by title
-  - List of the employees eligible for the mentorship program
-
+	
+	
  
-  Pewlett-Hackard-Analysis .sql file link -  [ Pewlett-Hackard-Analysis](https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/tree/main/Queries)  
+## <p align="justify"> Project features and resources<p>  
+- Data source : hawaii.sqlite
+- Programm File : SurfsUp_Challenge.ipynb
+- Software : SQLlite, Python, Jupyter Notebook
 
-  
-- Resources :
-  - Data source : employees table and titles table from PH-EmployeeDB
-  - Software : PostgreSQL 11
+ Surf-Analysis file(.ipynp) link -  [ Surf-Analysis](https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/tree/main/Queries)  
 
-
+## <p align="justify"> Project deliverables<p>
+-  Deliverable 1: Determine the Summary Statistics for June
+-  Deliverable 2: Determine the Summary Statistics for December
+-  Deliverable 3: A written report for the statistical analysis (README.md)
   
-  
+ 
+	
+	
+	
  ## Pewlett-Hackard-Analysis Results: 
   
 - <p align="justify"> A table named ‘retirement_titles’ has been created filtering on the birth date who were born between 1952 and 1955. This table holds the list of employee’s status both existing and retired.<p>
