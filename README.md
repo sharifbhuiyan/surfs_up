@@ -7,33 +7,30 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 <p align="justify">The project is to give investor a clear concept about the impact of weather in Oahu, Hawaii. Before investing to open the surf shop, specifically, investor wants temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round rather than a seasonal business.<p>
 	
 	
-
-
-<p align="justify">The project consists of two technical analysis.<p>
-	
 	
  
-## <p align="justify"> Project features and resources<p>  
+### <p align="justify"> Project features and resources<p>  
 - Data source : hawaii.sqlite
 - Programm File : SurfsUp_Challenge.ipynb
 - Software : SQLlite, Python, Jupyter Notebook
 
  Surf-Analysis file(.ipynp) link -  [ Surf-Analysis](https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/tree/main/Queries)  
 
-## <p align="justify"> Project deliverables<p>
+### <p align="justify"> Project deliverables<p>
 -  Deliverable 1: Determine the Summary Statistics for June
 -  Deliverable 2: Determine the Summary Statistics for December
 -  Deliverable 3: A written report for the statistical analysis (README.md)
   
  
 	
+
 	
-	
- ## Pewlett-Hackard-Analysis Results: 
+## Analysis Results: 
+---
   
-- <p align="justify"> A table named ‘retirement_titles’ has been created filtering on the birth date who were born between 1952 and 1955. This table holds the list of employee’s status both existing and retired.<p>
+- <p align="justify"> The Summary statistics that filtered the date column of the Measurements table in the hawaii.sqlite database and retrieved all the temperatures for the month of June.<p>
   
-  Retirement Title Table looks like :
+  The Summary statistics for june :
 
   
 <p align="center">
@@ -43,11 +40,16 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 
 	
   
-- <p align="justify"> In ‘retirement_titles’ table, there are duplicate entries for some employees because of switched titles over the years. To remove these duplicates and keep only the most recent title of each employee, a unique_titles table has been created. This table holds the list of the most recent title of each employee who are not retired. A Distinct ON statement has been applied to remove duplicate employees filtering on ‘9999-01-01’.   
-<p>
+- <p align="justify"> The Summary statistics that filtered the date column of the Measurements table in the hawaii.sqlite database and retrieved all the temperatures for the month of June.<p>
+  
+  The Summary statistics for December :
 
-Statement for Unique Title Table :
-
+	<p align="center">
+  <img width="600" src=https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/blob/main/resources/retirement_titles.png
+</p>
+		
+		
+	
 ```sharif
   
 --A Unique Titles table created that hold the most recent title of each employee excluding retired. (to remove duplicate rows, applied Dictinct ON employee_ID with Orderby )
