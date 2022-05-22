@@ -51,32 +51,24 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 		
  
   
-Outcomes :
+**Outcomes :**
 From the above scenarios, outcomes are observed: 
 		
 - The average temperature in June and December is about 75 degree F and 71 degree F respectively. i.e. 4 degree difference between months.
-- June max temp 85 degree F and December max temp 83 degree F 
-- June min temp 64 degree F and December max temp 56 degree F 
+- June max temp 85 degree F and December max temp 83 degree F. 
+- June min temp 64 degree F and December max temp 56 degree F. 
 
  
     
     
 ## Summary:
-<p align="justify">Several roles can be applied to make upcoming silver tsunami of the company in comfort zone. 
-  
-- <p align="justify"> The more older workers who retire early, the more vacant positions they leave. It can be eliminated by filling those positions with hiring experienced before leaving the old workers.</p>
+<p align="justify"> We can make final decision about our analysis by creating one summary by merging summary details of june and december. We can visualize those by histogram so that we can observe the outcome clearly. </p>  
 
-- <p align="justify"> Train-up the existing employees as early as possible and step-up the position if required.</p>
-
-- <p align="justify"> Hire retirees for part time basis so that they can train up those who need mentorship.</p>
-
-
-<p align="justify"> There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. By executing a query, we can show the member of mentorship group according to their recent title.</p>
 
   
 ```sharif
   
---# Merge the June and December temperature summary.
+-- Merge the June and December temperature summary.
 	
 june_stats = june_df.describe()
 dec_stats = dec_df.describe()
@@ -86,14 +78,14 @@ summary_df
  
 ```    
  
-<p align="justify"> The query result of mentorship employees looks like:</p>
+<p align="justify"> The query result of summary_df looks like:</p>
   
    
  <p align="center">
 <img width="300" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_summary.png
 </p>
   
-If we form a tabular view for the retiring_title count and mentorship group count by their title, we can observe the outcome clearly. 	
+Histogram for the month of June and December : 
   
  <p align="center">
 <img width="600" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_plot.png
@@ -101,5 +93,5 @@ If we form a tabular view for the retiring_title count and mentorship group coun
 
  
 
-<p align="justify"> If we focus on the above table, the total number of  employees need mentorship is 1549 where  senior staff is 569. Against them we have  24926 retiring senior staff, who can train them up. Number of Senior Engineer who need mentorship is 529. And we have 25916 retiring senior engineer to train them up. </p>
+<p align="justify"> If we focus on the above histogram, I would say, even december temperature varied than june, still december weather condition is good enough for both surfing activities and demand of Ice-Cream. </p>
 
