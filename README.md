@@ -58,21 +58,7 @@ From the above scenarios, outcomes are observed:
 - June max temp 85 degree F and December max temp 83 degree F 
 - June min temp 64 degree F and December max temp 56 degree F 
 
-```sharif
-  
---A Unique Titles table created that hold the most recent title of each employee excluding retired. (to remove duplicate rows, applied Dictinct ON employee_ID with Orderby )
-	
-SELECT DISTINCT ON (emp_no) 
-		emp_no,
-		first_name,
-		last_name,
-		title
-INTO unique_titles
-FROM retirement_titles
-WHERE to_date ='9999-01-01'
-ORDER BY emp_no, to_date DESC;
  
-```     
     
     
 ## Summary:
@@ -89,17 +75,16 @@ ORDER BY emp_no, to_date DESC;
 
   
 ```sharif
--- Statement for showing the Number of mentorship required employees by most recent Title.
-SELECT 	COUNT(ti.title),
-		ti.title
-FROM employees as e
-INNER JOIN titles as ti
-ON (e.emp_no=ti.emp_no)
-WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') and ti.to_date ='9999-01-01'
-GROUP BY ti.title
-ORDER BY COUNT DESC ;
+  
+--# Merge the June and December temperature summary.
+	
+june_stats = june_df.describe()
+dec_stats = dec_df.describe()
 
-```  
+summary_df = june_stats.merge(dec_stats, left_index=True, right_index=True)
+summary_df
+ 
+```    
  
 <p align="justify"> The query result of mentorship employees looks like:</p>
   
