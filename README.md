@@ -49,7 +49,15 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 </p>
 		
 		
-	
+ 
+  
+Outcomes :
+From the above scenarios, outcomes are observed: 
+		
+- The average temperature in June and December is about 75 degree F and 71 degree F respectively. i.e. 4 degree difference between months.
+- June max temp 85 degree F and December max temp 83 degree F 
+- June min temp 64 degree F and December max temp 56 degree F 
+
 ```sharif
   
 --A Unique Titles table created that hold the most recent title of each employee excluding retired. (to remove duplicate rows, applied Dictinct ON employee_ID with Orderby )
@@ -64,37 +72,7 @@ FROM retirement_titles
 WHERE to_date ='9999-01-01'
 ORDER BY emp_no, to_date DESC;
  
-```  
-  
-
-    
-- <p align="justify"> A retiring_titles table has been created that showing the number of retiring employees by most recent title. From this table, we could know that total number of retiring employees is 72458.   
-<p>
-  
-
-Retiring Title Table looks like:
-  
-<p align="center">
-  <img width="300" src=https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/blob/main/resources/retiring_titles.png
-</p>
-
-
-
-- <p align="justify"> A mentorship-eligibility table has been created that holds the current employees who were born between January 1, 1965 and December 31, 1965. The table shows that the total number of employees  required mentorship is 1549.
-<p>
-  
- 
-  
-  
-Mentorship eligibility Table looks like :
-
-	
-<p align="center">
-<img width="600" src=https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/blob/main/resources/mentorship_eligibilty.png
-</p>
-
- 
-    
+```     
     
     
 ## Summary:
