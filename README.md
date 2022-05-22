@@ -34,18 +34,18 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 
   
 <p align="center">
-  <img width="600" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_summary.png
+  <img width="250" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_summary.png
 </p>
 	
 
 	
   
-- <p align="justify"> The Summary statistics that filtered the date column of the Measurements table in the hawaii.sqlite database and retrieved all the temperatures for the month of June.<p>
+- <p align="justify"> The Summary statistics that filtered the date column of the Measurements table in the hawaii.sqlite database and retrieved all the temperatures for the month of December.<p>
   
   The Summary statistics for December :
 
 <p align="center">
-  <img width="600" src= https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/dec_summary.png
+  <img width="250" src= https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/dec_summary.png
 </p>
 		
 		
@@ -96,7 +96,7 @@ summary_df
 If we form a tabular view for the retiring_title count and mentorship group count by their title, we can observe the outcome clearly. 	
   
  <p align="center">
-<img width="300" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_plot.png
+<img width="600" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_plot.png
 </p>
 
  
