@@ -1,13 +1,18 @@
-# surfs_up
-SQLite, SQLAlchemy, Flask, Python, Matplotlib, Jupyter notebook
+## **<h1 align="center"> surfs_up**
+Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 
 
-## **<h1 align="center"> Pewlett-Hackard-Analysis**
+---
+
 
 
 
   ## Overview of the Analysis: 
-<p align="justify">This project is for to notify the company about the impact of large number of employees’ retirement and also taken mentorship steps for new employees to cope up with upcoming silver tsunami. So, getting the total scenario of the company, few things has to be analysis : determine the number of retiring employees per title, identify employees who are eligible to participate in a mentorship program. After completed the analysis, we got a summary details of the employees about total existing employee is 240124, retiring employees 72458 and mentorship required employee 1549.<p>
+<p align="justify">The project is to give investor a clear concept about the impact of weather in Oahu, Hawaii. Before investing to open the surf shop, specifically, investor wants temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round rather than a seasonal business.<p>
+	
+	
+	
+		SQLite, SQLAlchemy, Flask, Python, Matplotlib, Jupyter notebook
 
 <p align="justify">The project consists of two technical analysis.<p>
 
