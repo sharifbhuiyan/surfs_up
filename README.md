@@ -14,7 +14,7 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 - Programm File : SurfsUp_Challenge.ipynb
 - Software : SQLlite, Python, Jupyter Notebook
 
- Surf-Analysis file(.ipynp) link -  [ Surf-Analysis](https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/tree/main/Queries)  
+ Surf-Analysis file(.ipynp) link -  [ Surf-Analysis](https://github.com/sharifbhuiyan/surfs_up/blob/main/SurfsUp_Challenge.ipynb)  
 
 ### <p align="justify"> Project deliverables<p>
 -  Deliverable 1: Determine the Summary Statistics for June
@@ -34,7 +34,7 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
 
   
 <p align="center">
-  <img width="600" src=https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/blob/main/resources/retirement_titles.png
+  <img width="600" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_summary.png
 </p>
 	
 
@@ -44,8 +44,8 @@ Advance Data Storage and Retrieval with Jupyter Notebook, SQLite and SQLAlchemy.
   
   The Summary statistics for December :
 
-	<p align="center">
-  <img width="600" src=https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/blob/main/resources/retirement_titles.png
+<p align="center">
+  <img width="600" src= https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/dec_summary.png
 </p>
 		
 		
@@ -90,25 +90,14 @@ summary_df
   
    
  <p align="center">
-<img width="300" src=https://github.com/sharifbhuiyan/Pewlett-Hackard-Analysis/blob/main/resources/mentorship_count.png
+<img width="300" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_summary.png
 </p>
   
 If we form a tabular view for the retiring_title count and mentorship group count by their title, we can observe the outcome clearly. 	
   
-  <p align="center">
-
-
-|Title                |Member of mentorship group  |Retiring Employees|
-| :--------           |:---------:                  | --------: | 
-| Senior Staff        | 569                       | 24926     | 
-| Senior Engineer     | 529                       | 25916  | 
-| Engineer            | 190                       | 9285     | 
-| Staff               | 155                       | 7636     | 
-| Technique Leader    | 77                        | 3603     | 
-| Assistant Engineer  | 29                        | 1090     | 
-
+ <p align="center">
+<img width="300" src=https://github.com/sharifbhuiyan/surfs_up/blob/main/resources/june_dec_comparison_plot.png
 </p>
-  
 
  
 
